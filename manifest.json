@@ -1,0 +1,466 @@
+{
+  "name": "PriSynx",
+  "version": "1.5.7",
+  "description": "Suite di streaming per Nuvio con sorgenti italiane/internazionali, sync audio e multi-qualità",
+  "author": "PriSynx",
+  "scrapers": [
+    {
+      "id": "prisynx-dualsync",
+      "name": "⚡ DualSync",
+      "description": "Video 4K/FHD (Cinejoy, Vidfast) + audio ITA con auto-delay ToastFlix/AutoSync",
+      "version": "1.4.0",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "filename": "providers/dualsync.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it",
+        "en"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "prisynx-movyita",
+      "name": "🎬 MovyITA",
+      "description": "Video FHD con audio italiano e audio originale come seconda traccia",
+      "version": "1.4.0",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "filename": "providers/movyita.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it",
+        "en"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "limited": false,
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "prisynx-cb01",
+      "name": "📺 CB01",
+      "description": "Film e Serie TV da CB01 in HD/SD (MixDrop, MaxStream)",
+      "version": "1.3.2",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "filename": "providers/plugin_cb01.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ]
+    },
+    {
+      "id": "prisynx-eurostreaming",
+      "name": "🍿 Eurostreaming",
+      "description": "Serie TV da Eurostreaming (MaxStream, MixDrop, Turbovid, DeltaBit)",
+      "version": "1.2.0",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "series",
+        "tv"
+      ],
+      "filename": "providers/plugin_es_nuvio.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ]
+    },
+    {
+      "id": "prisynx-filmez",
+      "name": "🎥 Filmez",
+      "description": "Film da Filmez in streaming MaxStream (audio italiano)",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/plugin_filmez.js",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "prisynx-onlineserietv",
+      "name": "📡 OnlineSerieTV",
+      "description": "Film e Serie TV da OnlineSerieTV in streaming MaxStream (audio italiano)",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "filename": "providers/plugin_onlineserietv.js",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "prisynx-vixsrc",
+      "name": "💎 VixSrc",
+      "description": "Film e Serie TV da VixSrc in HD/FHD con audio e sottotitoli italiani",
+      "version": "1.2.1",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "filename": "providers/vixsrc.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "m3u8"
+      ]
+    },
+    {
+      "id": "prisynx-pacc",
+      "name": "🌐 PaCC",
+      "description": "Film e Serie TV da PaCC in HLS multi-server con traccia audio italiana",
+      "version": "1.1.0",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt",
+        "kitsu:",
+        "mal:",
+        "anilist:",
+        "anidb:"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "filename": "providers/pa.cc.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "m3u8"
+      ]
+    },
+    {
+      "id": "prisynx-altadefinizione",
+      "name": "🏰 Altadefinizione",
+      "description": "Film e Serie TV da Altadefinizione (CDN diretta MP4 720p/1080p, audio italiano)",
+      "version": "1.1.0",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "filename": "providers/altadefinizione.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "mp4"
+      ]
+    },
+    {
+      "id": "prisynx-guardoserie",
+      "name": "🎞️ Guardoserie",
+      "description": "Serie TV da Guardoserie (Uqload, Loadm in HLS/MP4)",
+      "version": "1.1.0",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "series",
+        "tv"
+      ],
+      "filename": "providers/guardoserie.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ]
+    },
+    {
+      "id": "prisynx-toonitalia",
+      "name": "🎨 Toonitalia",
+      "description": "Cartoni, animazione e anime da Toonitalia (VOE, Uqload)",
+      "version": "1.1.0",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "filename": "providers/toonitalia.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ]
+    },
+    {
+      "id": "prisynx-realtime",
+      "name": "🍰 Real Time",
+      "description": "Real Time, NOVE, DMAX e Food Network (Discovery Italia) HLS 1080p in italiano, puntate online ufficiali",
+      "version": "1.2.1",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "series",
+        "tv"
+      ],
+      "filename": "providers/realtime.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "m3u8"
+      ]
+    },
+    {
+      "id": "prisynx-raiplay",
+      "name": "🏛️ RaiPlay",
+      "description": "RaiPlay HLS fino a 1080p in italiano, film e fiction senza DRM",
+      "version": "1.2.1",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "filename": "providers/raiplay.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "m3u8"
+      ]
+    },
+    {
+      "id": "prisynx-animeworld",
+      "name": "🌸 AnimeWorld",
+      "description": "Anime ITA e SUB-ITA da AnimeWorld (MP4 diretti)",
+      "version": "1.1.0",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt",
+        "kitsu:",
+        "mal:",
+        "anilist:",
+        "anidb:"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/animeworld.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "mp4"
+      ]
+    },
+    {
+      "id": "prisynx-animesaturn",
+      "name": "🦊 AnimeSaturn",
+      "description": "Anime ITA e SUB-ITA da AnimeSaturn (StreamPeaker HLS/MP4)",
+      "version": "1.1.0",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt",
+        "kitsu:",
+        "mal:",
+        "anilist:",
+        "anidb:"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/animesaturn.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ]
+    },
+    {
+      "id": "prisynx-animeunity",
+      "name": "🏮 AnimeUnity",
+      "description": "Anime in streaming ITA e SUB-ITA da AnimeUnity in HLS (VixCloud)",
+      "version": "1.1.2",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "kitsu:",
+        "mal:",
+        "anilist:",
+        "anidb:",
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/animeunity.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it",
+        "ja"
+      ],
+      "formats": [
+        "m3u8"
+      ]
+    }
+  ]
+}
