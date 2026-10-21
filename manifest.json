@@ -1,6 +1,6 @@
 {
   "name": "PriSynx",
-  "version": "1.5.7",
+  "version": "1.6.0",
   "description": "Suite di streaming per Nuvio con sorgenti italiane/internazionali, sync audio e multi-qualità",
   "author": "PriSynx",
   "scrapers": [
@@ -460,6 +460,34 @@
       ],
       "formats": [
         "m3u8"
+      ]
+    },
+    {
+      "id": "prisynx-corsaroviola",
+      "name": "🏴‍☠️ IlCorsaroViola",
+      "description": "Torrent P2P da Il Corsaro Viola con seeders, bitrate reale e formati 4K/1080p",
+      "version": "1.0.3",
+      "author": "PriSynx",
+      "resources": [
+        "stream"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "filename": "providers/corsaroviola.js",
+      "enabled": true,
+      "contentLanguage": [
+        "it",
+        "en"
+      ],
+      "formats": [
+        "torrent"
       ]
     }
   ]
