@@ -1,0 +1,48 @@
+[
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-c83f0c5167f423c2fee12ca150b43642994e12eeb8c01fa59eb158d63e0cda68",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 262655,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA"
+        ],
+        "version": 8,
+        "internalName": "PriSynxProviders",
+        "description": "PriSynx: provider italiani portati dalle estensioni Nuvio per CloudStream (VixSrc, PaCC, Guardoserie, Altadefinizione, Real Time, Toonitalia, IlCorsaroViola, AnimeUnity, AnimeSaturn, AnimeWorld, Filmez, OnlineSerieTV, CB01, Eurostreaming, MovyITA e DualSync).",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/PriSynxProviders.cs3",
+        "name": "PriSynxProviders"
+    },
+    {
+        "iconUrl": "https://www.raiplay.it/dl/img/2020/01/30/1580397755295_raiplay3x.png",
+        "fileHash": "sha256-90bec43ec38161b6bae2912baf4cbba8770a99f06185377bcb2e5102caae67bd",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 25591,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "RaiPlayProvider",
+        "description": "RaiPlay: film, serie TV, documentari e dirette Rai (catalogo ufficiale, senza DRM). Disponibile solo da Italia/Europa.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/RaiPlayProvider.cs3",
+        "name": "RaiPlayProvider"
+    }
+]
