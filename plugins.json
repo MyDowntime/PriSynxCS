@@ -1,10 +1,10 @@
 [
     {
         "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
-        "fileHash": "sha256-c83f0c5167f423c2fee12ca150b43642994e12eeb8c01fa59eb158d63e0cda68",
+        "fileHash": "sha256-688b6f1e22b4722ddd64f67f5520c94376e5c75ba0172a3663a9cb2070308712",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
-        "fileSize": 262655,
+        "fileSize": 85110,
         "status": 1,
         "language": "it",
         "authors": [
@@ -12,23 +12,274 @@
         ],
         "tvTypes": [
             "Movie",
-            "TvSeries",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Altadefinizione",
+        "description": "Altadefinizione: film e serie TV in streaming.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/Altadefinizione.cs3",
+        "name": "Altadefinizione"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-10b18b4f846573b2af1ad2670b64512a0997887f77e58db1a35017ff2e011893",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 96383,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
             "Anime",
             "AnimeMovie",
             "OVA"
         ],
-        "version": 8,
-        "internalName": "PriSynxProviders",
-        "description": "PriSynx: provider italiani portati dalle estensioni Nuvio per CloudStream (VixSrc, PaCC, Guardoserie, Altadefinizione, Real Time, Toonitalia, IlCorsaroViola, AnimeUnity, AnimeSaturn, AnimeWorld, Filmez, OnlineSerieTV, CB01, Eurostreaming, MovyITA e DualSync).",
-        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/PriSynxProviders.cs3",
-        "name": "PriSynxProviders"
+        "version": 1,
+        "internalName": "AnimeSaturn",
+        "description": "AnimeSaturn: anime sub ITA e ITA con mapping TMDB.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/AnimeSaturn.cs3",
+        "name": "AnimeSaturn"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-d45db37e34c475c6b5cccb458418b1f212cca623a98ede247d9cc8cc1f3729a2",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 111049,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "OVA"
+        ],
+        "version": 1,
+        "internalName": "AnimeUnity",
+        "description": "AnimeUnity: anime sub ITA e ITA con mapping TMDB.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/AnimeUnity.cs3",
+        "name": "AnimeUnity"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-5d8dab685cca9ef54baf7c7285c84f1fc8f7fd946f9a14750e9da8a1e42cf53f",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 100377,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "OVA"
+        ],
+        "version": 1,
+        "internalName": "AnimeWorld",
+        "description": "AnimeWorld: anime sub ITA e ITA con mapping TMDB.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/AnimeWorld.cs3",
+        "name": "AnimeWorld"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-61952196d91ce681e341bb6dd7a3879bab5fa7c1d2e665f6fe698259d11d1ede",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 92490,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "CB01",
+        "description": "CB01: film e serie TV in streaming.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/CB01.cs3",
+        "name": "CB01"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-c7d63ee79a2d8cd1f45b9beb8ca08a636ef0b19b293a1d81a318fd93ba446c64",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 93052,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "DualSync",
+        "description": "DualSync: video 4K/FHD con audio ITA sincronizzato.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/DualSync.cs3",
+        "name": "DualSync"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-088dc6e72c5b9f469f713b169349ab69f8a7279dc959bff054a1e92185c3e952",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 86926,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Eurostreaming",
+        "description": "Eurostreaming: film e serie TV in streaming.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/Eurostreaming.cs3",
+        "name": "Eurostreaming"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-f8d19b5574b5c1cce1eb0a250889f7cf9097e5e606e3fb5966463d69db973025",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 80782,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "Filmez",
+        "description": "Filmez: catalogo film WordPress via MaxStream.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/Filmez.cs3",
+        "name": "Filmez"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-939c9c38bf803b8ad8851e3cd95b152be87f4e255139e2b330431e471ff4fe5a",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 100006,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Guardoserie",
+        "description": "Guardoserie: film e serie TV dal catalogo Guardoserie.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/Guardoserie.cs3",
+        "name": "Guardoserie"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-9d1c77d60fd05b9f596e96dc740b1c019f0d64bdee4cd2dceb60ce41d4e18e36",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 84147,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "IlCorsaroViola",
+        "description": "IlCorsaroViola: torrent P2P con seeders e formati 4K/1080p.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/IlCorsaroViola.cs3",
+        "name": "IlCorsaroViola"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-e752e92b19dd5cde535cfb2f3648df6c9df67996c4be724730db8b25ec098349",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 94672,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "MovyITA",
+        "description": "MovyITA: film e serie TV con sorgenti VixSrc.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/MovyITA.cs3",
+        "name": "MovyITA"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-b82032d2da0b97d1e0fbe614de1896435692587022c9d680cbecb9be0d5420ef",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 80829,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "OnlineSerieTV",
+        "description": "OnlineSerieTV: film e serie TV WordPress via MaxStream.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/OnlineSerieTV.cs3",
+        "name": "OnlineSerieTV"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-8b27d79a2330badddf92498d9939987431f98c4c7802ec306977a3486ec99fbf",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 85940,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Live",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "PaCC",
+        "description": "PaCC (partite.cc): eventi sportivi in diretta e replay.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/PaCC.cs3",
+        "name": "PaCC"
     },
     {
         "iconUrl": "https://www.raiplay.it/dl/img/2020/01/30/1580397755295_raiplay3x.png",
-        "fileHash": "sha256-90bec43ec38161b6bae2912baf4cbba8770a99f06185377bcb2e5102caae67bd",
+        "fileHash": "sha256-78f947b2d33c5e9fc01459ec4e6edb68329e5799b71d0f34fd09d26397c0bb2d",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
-        "fileSize": 25591,
+        "fileSize": 25594,
         "status": 1,
         "language": "it",
         "authors": [
@@ -40,9 +291,75 @@
             "Live"
         ],
         "version": 1,
-        "internalName": "RaiPlayProvider",
+        "internalName": "RaiPlay",
         "description": "RaiPlay: film, serie TV, documentari e dirette Rai (catalogo ufficiale, senza DRM). Disponibile solo da Italia/Europa.",
-        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/RaiPlayProvider.cs3",
-        "name": "RaiPlayProvider"
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/RaiPlay.cs3",
+        "name": "RaiPlay"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-f54290e9bf050b38754a19370e9d9aa6e820ebb22b0950d19dd3384240c46c0e",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 100633,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Live",
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "RealTime",
+        "description": "Real Time: programmi e serie TV del canale Real Time.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/RealTime.cs3",
+        "name": "RealTime"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-e6c499a688945c58c5712b1786a0725e9c797420a4f7f60177ce1e6225bf9b38",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 99562,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Toonitalia",
+        "description": "Toonitalia: cartoni animati e anime in italiano.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/Toonitalia.cs3",
+        "name": "Toonitalia"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/assets/prisynx.png",
+        "fileHash": "sha256-f7e26dbdfd7c99b0c18d9adeb01db83f00b54197d84904a823f88844a0708b7d",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/MyDowntime/PriSynxCS",
+        "fileSize": 87208,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "PriSynx"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "VixSrc",
+        "description": "VixSrc: film e serie TV con streaming multi-qualita.",
+        "url": "https://raw.githubusercontent.com/MyDowntime/PriSynxCS/main/VixSrc.cs3",
+        "name": "VixSrc"
     }
 ]
